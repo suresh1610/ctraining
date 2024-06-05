@@ -1,40 +1,32 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<stdbool.h>
-void getuserinput(int array[], int size){
+void getInput(int* arr, int size){
     for(int i = 0; i < size; i++){
-        printf("Enter the elements: ");
-        scanf("%d", &array[i]);
-        if(array[i] < 0){
-            printf("Invalid Number");
-            exit(1);
-        }
-    }
-}
-void printOutput(int arr1[], int arr2[], int size1, int size2){
-    bool found = false;
-    for(int i = 0; i< size1; i++){
-        for(int j = 0; j < size2; i++){
-            if( arr1[i] == arr2[j]){
-                found = true;
-                break;
-            }
-        }
-        if(!found){
-            printf("%d", arr1[i]);
-        }
+        scanf("%d", &arr[i]);
     }
 }
 int main(){
-    // int* n1_array; 
-    // int* n2_array;
-    int n1_size, n2_size;
-    scanf("%d", &n1_size);
-    int* n1_array = (int*)malloc( n1_size * sizeof(int));
-    getuserinput(n1_array, n1_size);
-    scanf("%d", &n2_size);
-    int* n2_array = (int*)malloc(n2_size * sizeof(int));
-    getuserinput(n2_array, n2_size);
-    printOutput(n1_array, n2_array, n1_size, n2_size);
+    int num1, num2, found = 0;
+    printf("No of elements for num1:\n");
+    scanf("%d", &num1);
+    printf("No of elements for num2:\n");
+    scanf("%d", &num2);
+    int arr1[num1];
+    int arr2[num2];
+    printf("Elements for arr1:\n");
+    getInput(arr1, num1);
+    printf("Elements for arr2\n");
+    getInput(arr2, num2);
+    for(int i = 0; i < num1; i++){
+        found = 0;
+        for(int j = 0; j < num2; j++){
+            if(arr1[i] == arr2[j]){
+                found = 1;
+                break;
+            }
+        }
+        if(found == 0){
+            printf("%d", arr1[i]);
+        }
+    }
     return 0;
 }
