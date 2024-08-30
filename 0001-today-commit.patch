@@ -1,0 +1,516 @@
+From 8d6c929a562fafd8e4cf998d874211f58ef264bf Mon Sep 17 00:00:00 2001
+From: suresh1610 <sureshkanthasmy39@gmail.com>
+Date: Fri, 30 Aug 2024 10:54:35 +0530
+Subject: [PATCH] today commit
+
+---
+ arrays/array_leader    | Bin 0 -> 16072 bytes
+ arrays/array_leader.c  |  30 ++++++++++++++++++++++++
+ arrays/no_of_pair      | Bin 0 -> 16224 bytes
+ arrays/no_of_pair.c    |  52 +++++++++++++++++++++++++++++++++++++++++
+ mount_blue/quicksort   | Bin 0 -> 16184 bytes
+ mount_blue/quicksort.c |  46 ++++++++++++++++++++++++++++++++++++
+ string/reverse         | Bin 0 -> 16112 bytes
+ string/substring       | Bin 16144 -> 16144 bytes
+ string/substring.c     |  17 ++++++++------
+ 9 files changed, 138 insertions(+), 7 deletions(-)
+ create mode 100755 arrays/array_leader
+ create mode 100644 arrays/array_leader.c
+ create mode 100755 arrays/no_of_pair
+ create mode 100644 arrays/no_of_pair.c
+ create mode 100755 mount_blue/quicksort
+ create mode 100644 mount_blue/quicksort.c
+ create mode 100755 string/reverse
+
+diff --git a/arrays/array_leader b/arrays/array_leader
+new file mode 100755
+index 0000000000000000000000000000000000000000..4a72bb252a898db97ba2559b2fcf9946437f3916
+GIT binary patch
+literal 16072
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/arrays/array_leader.c b/arrays/array_leader.c
+new file mode 100644
+index 0000000..72c0f24
+--- /dev/null
++++ b/arrays/array_leader.c
+@@ -0,0 +1,30 @@
++#include<stdio.h>
++int main(){
++	int size;
++	scanf("%d", &size);
++	int arr[size];
++
++
++	for(int i = 0; i < size; i++){
++		scanf("%d", &arr[i]);
++	}
++
++	for(int i = 0; i < size; i++){
++		int max_ele = arr[i];
++		for(int j = i+1; j < size; j++){
++			if(max_ele < arr[j]){
++				max_ele = arr[j];
++				i = j;
++			}
++		}
++		printf("%d ", arr[i]);
++	}
++	return 0;
++}
++
++// sample input
++// 5
++// 2 12 3 4 5
++
++// sample output;
++// 12 5
+diff --git a/arrays/no_of_pair b/arrays/no_of_pair
+new file mode 100755
+index 0000000000000000000000000000000000000000..0f5487feeffa9cad073b0b09c0eb904fa8503d54
+GIT binary patch
+literal 16224
+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
+R&HtP9!-ldT;1CeizX4i)V(kC`
+
+literal 0
+HcmV?d00001
+
+diff --git a/arrays/no_of_pair.c b/arrays/no_of_pair.c
+new file mode 100644
+index 0000000..54c6e77
+--- /dev/null
++++ b/arrays/no_of_pair.c
+@@ -0,0 +1,52 @@
++#include<stdio.h>
++#include<stdlib.h>
++
++int pair(int* arr, int count){
++
++    int max_color = 0;
++    for (int i = 0; i < count; i++) {
++        if (arr[i] > max_color) {
++            max_color = arr[i];
++        }
++    }
++    printf("%d\n", max_color);
++
++    int* color_count = (int*)calloc(max_color + 1, sizeof(int));
++
++    for(int i=0; i< count; i++){
++        color_count[arr[i]]++;
++    }
++
++    // for(int i = 0; i < max_color; i++){
++    //     printf("%d", color_count[i]);
++    // }
++
++    int pair = 0;
++    for(int i = 0; i < max_color + 1; i++){
++        pair += (color_count[i] / 2);
++    }
++
++    free(color_count);
++
++    return pair;
++
++}
++int main(){
++    int size;
++    printf("Enter the size of array:");
++    scanf("%d", &size);
++
++    int* arr = (int*)malloc(size * sizeof(int));
++
++    for(int i = 0 ; i < size; i++){
++        scanf("%d", &arr[i]);
++    }
++
++    int result = pair(arr, size);
++
++    printf("%d", result);
++
++    free(arr);
++    return 0;
++    
++}
+diff --git a/mount_blue/quicksort b/mount_blue/quicksort
+new file mode 100755
+index 0000000000000000000000000000000000000000..c4c79b5af5dbca6ae28a053dd12a54fc48ac82bc
+GIT binary patch
+literal 16184
+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
+GDE<jC)hpTn
+
+literal 0
+HcmV?d00001
+
+diff --git a/mount_blue/quicksort.c b/mount_blue/quicksort.c
+new file mode 100644
+index 0000000..b790f49
+--- /dev/null
++++ b/mount_blue/quicksort.c
+@@ -0,0 +1,46 @@
++#include<stdio.h>
++#include<stdlib.h>
++#include<string.h>
++
++int* quicksort(int n, int* arr, int *result_count){
++    int count = 0;
++
++    while(arr[count] != '\0'){
++        count++;
++    }
++
++    *result_count = count;
++
++    int* result = (int*)malloc(*result_count * sizeof(int));
++
++    // int* equal = (int*)malloc(*);
++
++    for(int i = 0; i < *result_count; i++){
++        result[i] = arr[i];
++    }
++
++    return result;
++}
++int main(){
++    int size;
++    scanf("%d", &size);
++	int* arr = (int*)malloc(size * sizeof(int));
++
++    for(int i = 0; i < size; i++){
++        scanf("%d", &arr[i]);
++    }
++
++    int result_count;
++    int* result = quicksort(size, arr, &result_count);
++
++    printf("%d\n", result_count);
++
++    for(int i = 0; i < result_count; i++){
++        printf("%d", result[i]);
++    }
++
++    free(arr);
++    free(result);
++
++    return 0;
++}
+diff --git a/string/reverse b/string/reverse
+new file mode 100755
+index 0000000000000000000000000000000000000000..8fa4f7db3168e7a5aef2f054a1cffa791b622140
+GIT binary patch
+literal 16112
+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
+
+literal 0
+HcmV?d00001
+
+diff --git a/string/substring b/string/substring
+index 536938245aa4e9ceb3408656cf3f711f247e4c71..4974c3c9ba60947253eb7659fdd8725a97e53de8 100755
+GIT binary patch
+delta 645
+zcmbPGH=%9=2P3B~GXogdP8MX;=d@vj@N71FGU_u5nkYcHaC&kl(|eH;S@D9ElHyg%
+zj@MWDeSP<=Z^D12%{|Qiyo|>--w_aDOpx^GWfkCKVDRWXz5`^yi`oDF|9?3H$U5%&
+z1tjpY0Z4Sae(7}maNP9`NaVGDv+D=OX4f~2-L7w}U4N8HgQSlE4SLOsWKa;$pw}vs
+zU4-mJr@dyJ(CqpJsQ!z!>mUA}lK=nzPnbMQNLMo&S;zUm|NndRx=!!_8|Hv4wPo@L
+zAyKC3|0c@{i?gQ!)tx-du-QuZ7|-MbOgxhmSW-a_3ocD6E-A{)OIOG&R!GWBPc2d?
+z$w<so$W6@5Q-H`YsHQNe76a8XN;6wq0BJTLe)InS{~RD~^Wp#hDL~o>NUs6XJwQ4H
+zNSA*6|NjV(E}ZPBpe|_u6jcNA7+lx|K$Hp)n*ede<VK+E0-#x7VUQFMhyZa35YL!=
+zP(j>mB~b4lkgzMCKpT@YFB{Wm9(E1}1{t6b$i`NnO&uum^+5T}fx=lllNab(FdA&W
+zsk@w+(PDC=p*y3=<dcT|K%qz@c1FdeLLhAn3}D?r`UEg_2r&pStP}(bGyK`yX#Ad?
+wF?VvIwLYhTFhtN`@=9xWMx)6e&E+Qx*a&bU(vGH$IcI?aL{-7&Oq=CQ04RLM9RL6T
+
+delta 611
+zcmbPGH=%9=2P3B^GXofSP8MX;=M-Ut@I*FyGU_u5@+d&KaC&kl(|eKRuoK6k>SkZy
+zNV(_gnKr>s>8;%3%{|Qiyo`G{-w_aD4B^`G9|&H~2Wswi{iE&rqw|<YFY7N}1_qDL
+z<2yh`zUch-|Nn8<FCg~otZvsYovt5_yS@Q)Et_3GFgClsVeEE&W9|B*locrbI&5-)
+zke$Su*NhXIUB3WjK&D!{eyQsQTQzyHkZza_viUdu{{QdM>pH;$Y_%e?)LyVu=md}6
+zRt2ClJvy%eUG-uC&_Q6epLmd*+4y&|fUr1Q1W?P#!<+SlkMT@WV6jzAVNfjwx|LCy
+z+1dg~vjMTlhyVX`fOHCwo&uyxfb<$5y#+{z0O`3O|NlP%q$f<yR8VJ(m^@KIoN>YA
+zl|c51$rlyG{SLhU|K9;94+AnlMh_5Q1nU0`5_IJgXk&8bWn+59!_L9L0FnopzXWLR
+zJQVq<K>5v%!jpI=FVMAMwAp-9cR4eoz~n|lcSfGcCk^|7LXk%7jEZxFK-w4>z`B9-
+z31Hj{F$gfM6a))1eBRt>{GOe$YI32qKBtW^M9^mPN^5sUuE~ZL@{<K@1UL~XL(|5b
+P(?bEG%42h;&2lCHpa9G?
+
+diff --git a/string/substring.c b/string/substring.c
+index c830c4f..46fc84e 100644
+--- a/string/substring.c
++++ b/string/substring.c
+@@ -1,30 +1,32 @@
+ #include<stdio.h>
+ #include<string.h>
+ 
+-int strStr(char *haystack, char *needles){
++void strStr(char *haystack, char *needles){
+     int needle_len = strlen(needles);
+     int haystack_len = strlen(haystack);
+     int needle_idx = 0;
+     int end = 0;
+ 
+     if(needle_len > haystack_len){
+-        return -1;
++        // return -1;
++        printf("The substring is larger then main string");
+     } else {
+-        printf("%d", (haystack_len - needle_len+1));
+-        for(int start = 0; start < (haystack_len - needle_len+1); start++){
++        // printf("%d", (haystack_len - needle_len+1));
++        for(int start = 0; start < haystack_len; start++){
+             end = start;
+             needle_idx = 0;
+             while(haystack[start] == needles[0]){
+                 end++;
+                 needle_idx++;
+                 if(needle_idx == needle_len){
+-                    return start;
++                    // return start;
++                    printf("The starting index of substring in main string is %d", start);
+                 } else if(needles[needle_idx] != haystack[end]){
+                     break;
+                 }
+             }
+         }
+-        return -1;
++        // return -1;
+     }
+ 
+ }
+@@ -34,5 +36,6 @@ int main(){
+     char needles[100];
+     scanf("%s", haystack);
+     scanf("%s", needles);
+-    printf("%d", strStr(haystack, needles));
++    strStr(haystack, needles);
++    return 0;
+ }
+-- 
+2.34.1
+
